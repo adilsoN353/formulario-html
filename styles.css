@@ -1,0 +1,23 @@
+body{
+    background-color:rgb(249, 255, 239) ;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+h1{
+    margin-top: 15px;
+}
+
+h2 {
+    background-color:rgb(235, 170, 146); 
+    margin-block: 25px; 
+    padding: 5px; 
+    font-size: large; color: brown
+}
+
+.casillas3  {
+    margin-top: 50px;
+    
+}
+#message-text{
+    height: 100px;
+}
