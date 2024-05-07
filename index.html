@@ -20,12 +20,13 @@
         </div>
 
         <div class="row border-end border-start">
-            <div class="row mt-2 mr-2 ml-2" style="margin-left: 2px;">
+            <div id="alerta">
+            <div class="row mt-2 mr-2 ml-2">
                 <div class="col-11 alert alert-danger mt-2" role="alert">
                     Some fields are missing
                 </div>
             </div>
-
+            </div>
             <!--aqui se encuentran las casillas forma de pago. -->
 
             <div class="casillas2">
@@ -51,7 +52,9 @@
                 </div>
             </div>
             <!--aqui se enceuntra casillas terceras info-personal-->
-            <form class="row g-3 needs-validation" style="margin-top: 20px;" novalidate>
+            <div id="info">
+            <form class="row g-3 needs-validation" novalidate>
+            </div>
                 <div class="col-md-6">
                     <label for="validationCustom01" class="form-label">First name</label>
                     <input type="text" class="form-control" id="validationCustom01" value="" required>
@@ -130,8 +133,9 @@
                 <div class="col-6">
                     <label for="basic-url" class="form-label">Message</label>
                     <div class="form-floating">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                        
+                        <div id="textarea">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" ></textarea>
+                        </div>
                     </div>
                     <label for="floatingTextarea2" class="text-body-secondary">Add any notes here</label>
                 </div>
